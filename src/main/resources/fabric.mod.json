@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "floating-carpets",
+  "version": "${version}",
+  "name": "Floating carpets",
+  "description": "Lets you place floating carpets",
+  "authors": [
+    "rafern"
+  ],
+  "contact": {
+    "repo": "https://github.com/rafern/floating-carpets-mod",
+    "homepage": "https://github.com/rafern/floating-carpets-mod",
+    "issues": "https://github.com/rafern/floating-carpets-mod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/floating-carpets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": []
+  },
+  "mixins": [
+    "floating-carpets.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
